@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+Typical Device Breakpoints (De acordo com o site da W3c);
+
+Dispositivos muito Pequenos: max-width: 600px
+Dispositivos Pequenos: min-width:600px
+Dispositivos Médios: min-width: 768px
+Dispositivos Grandes/largos: min-width: 992px
+Dispositivos Muito Grandes/largos: min-width: 1200px
+
+*/
+
+@media screen and (min-width: 768px) {
+   body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+   }
+   
+    #login {
+        width: 75vw;
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 65%;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #login {
+        width: 950px;
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 50%;
+    }
+}
