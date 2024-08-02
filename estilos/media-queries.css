@@ -80,4 +80,8 @@ Dispositivos Muito Grandes/largos: min-width: 1200px
         font-size: 1.2em;
         margin-top: 0px;
     }
+
+    div.campo > input {
+        transform: translateY(-12.2px);
+    }
 }
