@@ -18,6 +18,7 @@ Dispositivos Muito Grandes/largos: min-width: 1200px
    
     #login {
         width: 75vw;
+        height: 380px;
     }
 
     #login > #imagem {
@@ -37,7 +38,21 @@ Dispositivos Muito Grandes/largos: min-width: 1200px
     }
     
     #formulario > p {
-        font-size: 1em;
+        font-size: 1.2em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    form > div.campo {
+        margin: 15px 0px;
+    }
+
+    form > input[type=submit] {
+        margin-top: 20px;
+    }
+
+    form > a.botao {
+        margin-top: 15px;
     }
 }
 
@@ -63,5 +78,6 @@ Dispositivos Muito Grandes/largos: min-width: 1200px
     
     #formulario > p {
         font-size: 1.2em;
+        margin-top: 0px;
     }
 }
